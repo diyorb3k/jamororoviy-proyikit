@@ -1,1 +1,67 @@
+.foter {
+  background-color: rgba(28, 30, 83, 1);
+}
 
+.blok {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+  max-width: 517px;
+  width: 100%;
+  background-color: rgba(252, 217, 128, 1);
+  .card_left {
+    padding: 18px 0 16px 37px;
+  }
+
+  .card_rig {
+    padding: 18px 0 16px 37px;
+  }
+}
+.foter-pch {
+  max-width: 399px;
+  width: 100%;
+  color: white;
+  padding-top: 23px;
+  padding-bottom: 86px;
+}
+.econ_foter {
+  // margin-top: 104px;
+}
+
+.econs {
+  display: flex;
+  gap: 26px;
+}
+.card_left1 {
+  h3 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 14px;
+  }
+  p {
+    max-width: 399px;
+    width: 100%;
+    color: azure;
+    padding-bottom: 24px;
+  }
+}
+.foter_buton {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 96px;
+}
+@media (max-width: 854px) {
+  .foter_buton {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

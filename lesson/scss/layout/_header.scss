@@ -33,16 +33,16 @@ header {
   }
   .burgerMenu {
     display: none;
-    width: 94%;
+    width: 100%;
     height: 100%;
     background: #2d3131fb;
     /* border: 1px solid; */
     position: absolute;
-    top: 70px;
+    top: 100px;
     left: 0;
     /* bottom: 40px; */
     display: flex;
-    transform: translateX(-120%);
+    transform: translateY(-120%);
     flex-direction: column;
     justify-content: center;
     align-items: center;

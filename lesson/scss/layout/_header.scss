@@ -1,0 +1,20 @@
+header {
+  background-color: rgba(28, 30, 83, 1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 32px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    li {
+      list-style: none;
+      color: white;
+    }
+  }
+}

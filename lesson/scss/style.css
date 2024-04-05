@@ -16,7 +16,7 @@ a {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 header {
@@ -28,13 +28,123 @@ header {
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 32px;
+  align-items: center;
 }
 .nav ul {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.nav ul li {
+.nav ul .nav_link {
   list-style: none;
-  color: white;
+  color: rgb(187, 187, 203);
+}
+.nav .contact {
+  background-color: rgb(28, 30, 83);
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+  border-radius: 41px;
+  color: #ffffff;
+}
+.nav .burger-img {
+  width: 49px;
+  height: 49px;
+  display: none;
+}
+.nav .burgerMenu {
+  display: none;
+  width: 94%;
+  height: 100%;
+  background: rgba(45, 49, 49, 0.9843137255);
+  /* border: 1px solid; */
+  position: absolute;
+  top: 70px;
+  left: 0;
+  /* bottom: 40px; */
+  display: flex;
+  transform: translateX(-120%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+.nav .burgerMenu .burgerMenu-item {
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.nav .burgerMenu .burgerMenu-list {
+  margin-top: -50px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+}
+.nav .burgerMenu ul {
+  display: flex;
+  flex-direction: column;
+  color: rgb(187, 187, 203);
+}
+.nav .burgerMenushow {
+  /* display: flex; */
+  transform: translateX(0);
+}
+.nav .burgerMenuitemlink {
+  display: flex;
+  /* margin-top: -90px; */
+  top: 0;
+  gap: px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(79, 86, 101);
+  /* gap: 10px; */
+}
+
+@media (max-width: 857px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    align-items: center;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .nav ul .nav_link {
+    display: none;
+    list-style: none;
+    color: white;
+  }
+  .nav .burger-img {
+    width: 49px;
+    height: 49px;
+    display: inline-block;
+  }
+  .burgerMenu {
+    display: block;
+    width: 94%;
+    height: 100%;
+    background: rgba(45, 49, 49, 0.9843137255);
+    /* border: 1px solid; */
+    position: absolute;
+    top: 70px;
+    left: 0;
+    /* bottom: 40px; */
+    display: flex;
+    transform: translateX(-120%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease-in;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

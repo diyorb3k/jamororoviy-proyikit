@@ -3,12 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Finsweet | Contact</title>
+    <title>Lesson 33</title>
     <link rel="stylesheet" href="../scss/style.css" />
   </head>
-  <body class="contact">
-    <header></header>
+  <body>
+    <style>
+      .dark {
+        background: black;
+      }
+
+      .dark * {
+        color: white !important;
+      }
+    </style>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <img src="../images/Logo (1).svg" alt="" />
+          <ul class="header_link">
+            <li class="nav_link"><a href="../index.html">Home</a></li>
+            <li class="nav_link"><a href="./about.html">About us</a></li>
+            <li class="nav_link"><a href="./pricing.html">Pricing</a></li>
+            <li class="nav_link"><a href="./work.html">Work</a></li>
+            <li class="nav_link"><a href="./blog.html">Blog</a></li>
+            <div class="nav_link">
+              <a class="contact" href="#"> Contact us</a>
+            </div>
+
+            <svg
+              id="light-dark"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 11.807A9.002 9.002 0 0 1 
+                       10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 
+                       10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 
+                       9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z"
+              ></path>
+            </svg>
+
+            <div class="header__btn">
+              <img src="../images/burger-menu.png" class="burger-img" alt="" />
+            </div>
+          </ul>
+
+          <div class="burgerMenu">
+            <ul class="burgerMenu-list">
+              <li class="burgerMenu-item">
+                <a href="" class="burgerMenu-item-link">Home</a>
+              </li>
+              <li class="burgerMenu-item">
+                <a href="" class="burgerMenu-item-link">About us</a>
+              </li>
+              <li class="burgerMenu-item">
+                <a href="" class="burgerMenu-item-link">Pricing</a>
+              </li>
+              <li class="burgerMenu-item">
+                <a href="" class="burgerMenu-item-link">Work</a>
+              </li>
+              <li class="burgerMenu-item">
+                <a href="" class="burgerMenu-item-link">Blog</a>
+              </li>
+            </ul>
+            <div class="burgerMenu-btnBox">
+              <!-- <button class="burgerMenu-btnBox-btn1">Sign In</button>
+              <button class="burgerMenu-btnBox-btn">Sign Up</button> -->
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
+    <script>
+      let modeBtn = document.getElementById("light-dark");
+
+      modeBtn.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

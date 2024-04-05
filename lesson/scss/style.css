@@ -147,4 +147,180 @@ header {
     transition: all 0.3s ease-in;
     text-align: center;
   }
+}
+.About .section1 {
+  padding-bottom: 126px;
+  margin-top: 128px;
+}
+.About .section1 .container {
+  display: flex;
+  align-items: center;
+}
+.About .section1 .container .sec1-text h4 {
+  padding-bottom: 8px;
+}
+.About .section1 .container .sec1-text h2 {
+  font-size: 54px;
+  padding-bottom: 31px;
+}
+.About .section1 .container .sec1-text p {
+  max-width: 484px;
+  width: 100%;
+}
+.About .hero_img {
+  max-height: 640px;
+  width: 100%;
+}
+.About .section2 .container .sec2-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1280px;
+  background-color: #f4f5f5;
+  padding-top: 96px;
+  padding-left: 80px;
+  padding-bottom: 96px;
+}
+.About .section2 .container .sec2-text .sec2-left h2 {
+  font-size: 38px;
+  padding-bottom: 16px;
+}
+.About .section2 .container .sec2-text .sec2-left p {
+  padding-right: 60px;
+  width: 515px;
+}
+.About .section2 .container .sec2-text .sec2-right h2 {
+  font-size: 38px;
+  padding-bottom: 16px;
+}
+.About .section2 .container .sec2-text .sec2-right p {
+  width: 515px;
+}
+.About .section2 .container .sec2-img {
+  margin-bottom: 128px;
+}
+.About .section3 {
+  background-color: #f4f6fc;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.About .section3 .sec3-top {
+  padding-top: 128px;
+  font-size: 48px;
+  padding-bottom: 48px;
+}
+.About .section3 .About-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.About .section3 .About-cards .About-card {
+  background-color: #fff;
+  width: 296px;
+  height: 344px;
+  text-align: center;
+}
+.About .section3 .About-cards .About-card img {
+  margin-top: 48px;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 30px;
+}
+.About .section3 .About-cards .About-card p {
+  padding-top: 2px;
+}
+
+@media (max-width: 1024px) {
+  .sec2-text {
+    flex-wrap: wrap;
+  }
+  .About .section1 {
+    padding-bottom: 126px;
+    margin-top: 128px;
+  }
+  .About .section1 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .About .section1 .container .sec1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .About .section1 .container .sec1-text h4 {
+    padding-bottom: 8px;
+  }
+  .About .section1 .container .sec1-text h2 {
+    font-size: 54px;
+    padding-bottom: 31px;
+  }
+  .About .section1 .container .sec1-text p {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .About .hero_img {
+    max-height: 630px;
+    max-width: 500px;
+  }
+  .About .section2 .container .sec2-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    background-color: #f4f5f5;
+    padding-top: 96px;
+    padding-left: 80px;
+    padding-bottom: 96px;
+  }
+  .About .section2 .container .sec2-text .sec2-left h2 {
+    font-size: 38px;
+    padding-bottom: 16px;
+  }
+  .About .section2 .container .sec2-text .sec2-left p {
+    padding-right: 60px;
+    width: 515px;
+  }
+  .About .section2 .container .sec2-text .sec2-right h2 {
+    font-size: 38px;
+    padding-bottom: 16px;
+  }
+  .About .section2 .container .sec2-text .sec2-right p {
+    width: 515px;
+  }
+  .About .section2 .container .sec2-img {
+    margin-bottom: 128px;
+  }
+  .About .section3 {
+    background-color: #f4f6fc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .About .section3 .sec3-top {
+    padding-top: 128px;
+    font-size: 48px;
+    padding-bottom: 48px;
+  }
+  .About .section3 .About-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .About .section3 .About-cards .About-card {
+    background-color: #fff;
+    width: 296px;
+    height: 344px;
+    text-align: center;
+  }
+  .About .section3 .About-cards .About-card img {
+    margin-top: 48px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 30px;
+  }
+  .About .section3 .About-cards .About-card p {
+    padding-top: 2px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -461,7 +461,7 @@ header {
   left: 0;
   /* bottom: 40px; */
   display: flex;
-  transform: translateY(-120%);
+  transform: translateX(-120%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -475,7 +475,7 @@ header {
   font-size: 30px;
 }
 .nav .burgerMenu .burgerMenu-list {
-  margin-top: -50px;
+  margin-top: 20px;
   margin-left: 150px;
   display: flex;
   justify-content: center;

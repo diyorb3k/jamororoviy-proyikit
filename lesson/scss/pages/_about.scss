@@ -32,28 +32,33 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        width: 1280px;
         background-color: #f4f5f5;
         padding-top: 96px;
         padding-left: 80px;
         padding-bottom: 96px;
         .sec2-left {
+          max-width: 515px;
+          width: 100%;
           h2 {
             font-size: 38px;
             padding-bottom: 16px;
           }
           p {
             padding-right: 60px;
-            width: 515px;
+            max-width: 515px;
+            width: 100%;
           }
         }
         .sec2-right {
+          max-width: 515px;
+          width: 100%;
           h2 {
             font-size: 38px;
             padding-bottom: 16px;
           }
           p {
-            width: 515px;
+            max-width: 515px;
+            width: 100%;
           }
         }
       }
@@ -157,7 +162,7 @@
             }
             p {
               padding-right: 60px;
-              width: 515px;
+              // width: 515px;
             }
           }
           .sec2-right {
@@ -166,7 +171,8 @@
               padding-bottom: 16px;
             }
             p {
-              width: 515px;
+              // max-width: 515px;
+              // width: 100px;
             }
           }
         }

@@ -667,11 +667,14 @@ textarea {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  width: 1280px;
   background-color: #f4f5f5;
   padding-top: 96px;
   padding-left: 80px;
   padding-bottom: 96px;
+}
+.About .section2 .container .sec2-text .sec2-left {
+  max-width: 515px;
+  width: 100%;
 }
 .About .section2 .container .sec2-text .sec2-left h2 {
   font-size: 38px;
@@ -679,14 +682,20 @@ textarea {
 }
 .About .section2 .container .sec2-text .sec2-left p {
   padding-right: 60px;
-  width: 515px;
+  max-width: 515px;
+  width: 100%;
+}
+.About .section2 .container .sec2-text .sec2-right {
+  max-width: 515px;
+  width: 100%;
 }
 .About .section2 .container .sec2-text .sec2-right h2 {
   font-size: 38px;
   padding-bottom: 16px;
 }
 .About .section2 .container .sec2-text .sec2-right p {
-  width: 515px;
+  max-width: 515px;
+  width: 100%;
 }
 .About .section2 .container .sec2-img {
   margin-bottom: 128px;
@@ -777,14 +786,10 @@ textarea {
   }
   .About .section2 .container .sec2-text .sec2-left p {
     padding-right: 60px;
-    width: 515px;
   }
   .About .section2 .container .sec2-text .sec2-right h2 {
     font-size: 38px;
     padding-bottom: 16px;
-  }
-  .About .section2 .container .sec2-text .sec2-right p {
-    width: 515px;
   }
   .About .section2 .container .sec2-img {
     margin-bottom: 128px;

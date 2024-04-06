@@ -1,0 +1,80 @@
+.tex_grup {
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 64px;
+    h4 {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 64px;
+      text-align: center;
+    }
+    p {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      max-width: 562px;
+      margin: 0 auto;
+    }
+  }
+  
+  .contend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 55px;
+    padding-left: 72px;
+    padding-right: 70px;
+    margin: 0 auto;
+  }
+  .hero {
+    .input_hero {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+  
+    // text-align: center;
+    margin: 0 auto;
+    max-width: 1130px;
+    width: 100%;
+    background-color: rgba(244, 246, 252, 1);
+    border-radius: 12px;
+    margin-bottom: 128px;
+  
+    input {
+      max-width: 438px;
+      width: 100%;
+      padding: 18px 274px 18px 32px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+      outline: none;
+    }
+  }
+  .parent-textarea {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  textarea {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    max-width: 908px;
+    width: 100%;
+    resize: none;
+    // padding: 50px 310px;
+    // width: 980px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-top: 18px;
+  }
+  .btn_link_button {
+    padding: 16px 64px;
+    color: white;
+    background-color: rgba(40, 41, 56, 1);
+    border-radius: 41px;
+    margin-bottom: 69px;
+    margin-left: 30px;
+  }
